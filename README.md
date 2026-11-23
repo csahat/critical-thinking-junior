@@ -3,28 +3,45 @@ An AI thinking partner for students aged about 12 to 15. It asks one simple ques
 
 What it teaches, how it differs from the adult version, and notes for parents and teachers are in the [skill README](skills/critical-thinking-junior/README.md).
 
+## Recommended Platform: Gemini on the Web
+For students, I only recommend using this skill with **Google Gemini's web version** ([gemini.google.com](https://gemini.google.com)), on a **teen Google account**.
+
+Set up a Google account for your teenager and enter their birth date correctly. Gemini then applies its standard teen protections on top of the skill's own guardrails:
+- stricter content guardrails, which Google describes as ["even stricter content policies"](https://safety.google/products/gemini) for younger users
+- limits on some features for under-18 accounts
+
+> [!WARNING]
+> **Common Sense Media rates Gemini with teen protections as "High Risk"** ([assessment, September 2025](https://www.commonsensemedia.org/ai-ratings/gemini-with-teen-protections)). It concluded that the teen version appears to be the adult version of Gemini with some extra safety features, rather than something built for young people. Common Sense recommends that **no one under 18 use Gemini for mental health advice or emotional support**.
+>
+> This skill stops the exercise and points to a trusted adult when a student seems upset or unsafe, but it cannot fix the underlying model. Stay nearby, especially for the first few sessions, and check Common Sense Media for newer ratings.
+
 ## Installing
 Download `critical-thinking-junior.zip` from the [latest release](../../releases/latest), or build it yourself with `python build_zip.py` (it lands in `dist/`).
 
 ### Gemini (web)
-1. Open [gemini.google.com](https://gemini.google.com) and go to the **Skills** page.
-2. Choose to create a skill by uploading, and select `critical-thinking-junior.zip`.
+Uploading a skill needs a **Google AI Plus** subscription and works **only on the web version**, not the mobile app. It works on teen accounts.
 
-Skills can only be uploaded on the web app. To update the skill, upload the whole zip again.
+1. At [gemini.google.com](https://gemini.google.com), click **Customize** in the left sidebar.
+2. Open the **Skills** tab.
+3. Click **Create**, choose **Upload**, and select `critical-thinking-junior.zip`.
 
-### Claude (claude.ai)
-Upload the same zip under **Settings → Capabilities → Skills**.
+The skill then appears under **Installed** as *critical-thinking-junior*. To update it, upload the whole zip again.
 
-### Claude Code, Cursor, Codex and other agents
+### Other Platforms (for Adults Trying It Out)
+These routes work, but they are not recommended for students. Claude's consumer apps, for example, require users to be 18 or over.
+
+**Claude (claude.ai):** upload the same zip under **Settings → Capabilities → Skills**.
+
+**Claude Code, Cursor, Codex and other agents:**
 ```bash
 npx skills add csahat/critical-thinking-junior
 ```
 Or copy `skills/critical-thinking-junior/` into the agent's skills folder, for example `.claude/skills/` in a project or `~/.claude/skills/` for every project. Copy the whole folder, `references/` included.
 
-### Using it
+## Using It
 Start with something like *"Help me think this through: I think our school should ..."* or *"Check my thinking on my History essay argument."*
 
-Check the platform's age rules first. Where a student is below them, run sessions on an adult's account with the adult present.
+The reference files in `skills/critical-thinking-junior/references/` are also printable, so you can ask the same questions yourself at the dinner table or over homework.
 
 ## Layout
 ```

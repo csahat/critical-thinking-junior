@@ -29,7 +29,7 @@ It acts as a thinking partner: it asks one simple question at a time to help a s
 **Nine thinking checks** (`references/thinking-checks.md`), each with a weak and a stronger answer side by side: clarity, accuracy, precision, relevance, depth, breadth, logic, significance, fairness.
 
 ## For Parents and Teachers
-- **Check the platform's age rules.** Claude's consumer apps require users to be 18 or over. Run sessions together, on an adult's account, with the adult present.
+- **Use Gemini on the web, on a teen account.** See [Recommended Platform](../../README.md#recommended-platform-gemini-on-the-web) for why, and for Common Sense Media's risk warning. Other platforms have their own age rules: Claude's consumer apps, for example, require users to be 18 or over.
 - **It works without AI too.** The two reference files are printable. Ask the questions yourself, at the dinner table or over homework.
 - **Start with something low-stakes.** A claim from a group chat, a CCA choice, or a debate topic works better than an assignment due tomorrow.
 - **It won't do the homework.** It is told never to write answers, essay paragraphs or arguments for the student.
