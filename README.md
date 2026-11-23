@@ -10,10 +10,15 @@ Set up a Google account for your teenager and enter their birth date correctly. 
 - stricter content guardrails, which Google describes as ["even stricter content policies"](https://safety.google/products/gemini) for younger users
 - limits on some features for under-18 accounts
 
+> [!IMPORTANT]
+> **Check your country's minimum age.** Each country sets its own minimum age for creating a Google account ([Google's list by country](https://support.google.com/accounts/answer/1350409)). In Singapore, the minimum age is **13**.
+
+**Use this skill with an adult in the room.** Not hovering over every message, but close enough to notice if the conversation turns, and to talk through what the student found. That matters most in the first few sessions.
+
 > [!WARNING]
 > **Common Sense Media rates Gemini with teen protections as "High Risk"** ([assessment, September 2025](https://www.commonsensemedia.org/ai-ratings/gemini-with-teen-protections)). It concluded that the teen version appears to be the adult version of Gemini with some extra safety features, rather than something built for young people. Common Sense recommends that **no one under 18 use Gemini for mental health advice or emotional support**.
 >
-> This skill stops the exercise and points to a trusted adult when a student seems upset or unsafe, but it cannot fix the underlying model. Stay nearby, especially for the first few sessions, and check Common Sense Media for newer ratings.
+> This skill stops the exercise and points to a trusted adult when a student seems upset or unsafe, but it cannot fix the underlying model. That is why an adult should be in the room. Check Common Sense Media for newer ratings.
 
 ## Installing
 Download `critical-thinking-junior.zip` from the [latest release](../../releases/latest), or build it yourself with `python build_zip.py` (it lands in `dist/`).
