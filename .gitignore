@@ -1,0 +1,4 @@
+dist/
+.claude/
+.agents/
+.DS_Store
