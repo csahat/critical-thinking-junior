@@ -48,6 +48,13 @@ Start with something like *"Help me think this through: I think our school shoul
 
 The reference files in `skills/critical-thinking-junior/references/` are also printable, so you can ask the same questions yourself at the dinner table or over homework.
 
+## TODO
+- [ ] **Mental health and emotional support guardrail.** When a student raises a mental health or emotional support topic, the skill should stop and encourage them to talk to a parent or the school counsellor, and give these Singapore services:
+  - **National Mindline:** call **1771** or WhatsApp **6669 1771** to talk to a mental health counsellor, available 24/7.
+  - **Samaritans of Singapore (SOS):** call the 24-hour hotline at **1767** or WhatsApp **9151 1767**.
+
+  The skill currently gives only the SOS hotline (1767), in its Safety section.
+
 ## Layout
 ```
 skills/critical-thinking-junior/
