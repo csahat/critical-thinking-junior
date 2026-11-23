@@ -17,7 +17,7 @@ Upload the same zip under **Settings → Capabilities → Skills**.
 
 ### Claude Code, Cursor, Codex and other agents
 ```bash
-npx skills add <owner>/critical-thinking-junior
+npx skills add csahat/critical-thinking-junior
 ```
 Or copy `skills/critical-thinking-junior/` into the agent's skills folder, for example `.claude/skills/` in a project or `~/.claude/skills/` for every project. Copy the whole folder, `references/` included.
 
